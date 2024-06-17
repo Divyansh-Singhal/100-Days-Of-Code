@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class Solution {
@@ -9,4 +10,8 @@ public class Solution {
         String reversed = new StringBuilder(str).reverse().toString();
         System.out.println(str.equals(reversed) ? "Yes" : "No");
     }
+=======
+public class DAY-78 {
+    
+>>>>>>> a814fd9a080a6ee0ca3ccbf3a714c2d72d558f47
 }

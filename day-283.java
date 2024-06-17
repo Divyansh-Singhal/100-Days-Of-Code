@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-String s= String.valueOf(n);
-
-=======
 class Solution {
     public int minSpeedOnTime(int[] dist, double hour) {
         
@@ -36,4 +31,3 @@ class Solution {
         return ans<=hour;
     }
 }
->>>>>>> a814fd9a080a6ee0ca3ccbf3a714c2d72d558f47

@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-
-
-class Result {
-    public static String findDay(int month, int day, int year) {
-        Calendar cal = Calendar.getInstance();
-        cal.set(Calendar.MONTH, month-1);
-        cal.set(Calendar.DAY_OF_MONTH, day);
-        cal.set(Calendar.YEAR, year);
-        return cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.US).toUpperCase();
-    }
-
-}
-
-=======
 public class Solution {
     double[][][] dp;
     int[] xmove = {-2, -2, -1, -1, 1, 1, 2, 2};
@@ -44,4 +29,3 @@ public class Solution {
         return dp[row][col][k] = ans;
     }
 }
->>>>>>> a814fd9a080a6ee0ca3ccbf3a714c2d72d558f47
